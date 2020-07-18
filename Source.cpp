@@ -44,7 +44,7 @@ retry:
 				for (int mins = 59; mins >= 0; --mins) {
 					for (int seconds = 59; seconds >= 0; --seconds) {
 						cout << "Осталось: " << hours << ":" << mins << ":" << seconds;
-						Sleep(100);
+						Sleep(1000);
 						system("cls");
 					}
 				}
